@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anshal Code - Calculator App</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="icon" href="main.png" type="image/x-icon">
+
+    <meta name="description" content="Calculator App using HTML, CSS  , and Javascript" />
+</head>
+
+<body>
+    <section aria-label="Calculator Section" id="calculator-section">
+        <div class="output-calculator">
+            <p id="MainHeader" style="font-size: 30px;">Anshal's Calculator</p>
+            <ul id="results">
+
+            </ul>
+
+            <div class="MainInput">
+                <p class="Inputs"></p>
+                <button id="clearHistory">Clear</button>
+            </div>
+        </div>
+
+        <div class="calculator-operations">
+            <div class="Numbers">
+                <ul>
+                    <button id="clearInput">C</button>
+                    <li class="operands"><data value="%">%</data></li>
+                    <li class="operands"><data value=".">.</data></li>
+
+                    <li class="operands"><data value="√ ">√ </data></li>
+                    <li class="nums"><data value="3">3</data></li>
+                    <li class="nums"><data value="4">4</data></li>
+                    <li class="nums"><data value="5">5</data></li>
+                    <li class="nums"><data value="6">6</data></li>
+                    <li class="nums"><data value="7">7</data></li>
+                    <li class="nums"><data value="8">8</data></li>
+                    <li class="nums"><data value="9">9</data></li>
+                    <li class="nums"><data value="0">0</data></li>
+
+                    <li class="nums"><data value="1">1</data></li>
+                    <li class="nums"><data value="2">2</data></li>
+                    <button id="clear">
+                        <img width="20" height="20" src="https://img.icons8.com/ios/50/clear-symbol--v1.png"
+                            alt="clear-symbol--v1" />
+                    </button>
+                    <button id="calculate">=</button>
+                </ul>
+            </div>
+            <div class="operators">
+                <ul>
+                    <li class="operands"><data value="+">+</data></li>
+                    <li class="operands"><data value="-">-</data></li>
+                    <li class="operands"><data value="/">/</data></li>
+                    <li class="operands"><data value="*">*</data></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <script src="Main.js"></script>
+</body>
+
+</html>
